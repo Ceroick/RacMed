@@ -1,15 +1,19 @@
 <!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>RacMed — Plataforma de Estudio</title>
-
-    <!-- CSS en la raíz -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- JS en la raíz -->
-    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- NAV -->
@@ -45,7 +49,7 @@
     </header>
 
     <!-- MAIN GRID -->
-    <main id="page-home" class="container">
+<main id="page-home" class="container">
       <!-- WIDGETS -->
       <section id="widgets" class="widgets">
         <article class="card tip" id="tips">
@@ -90,29 +94,32 @@
         </div>
       </section>
     </main>
+<main id="page-topic" class="container hidden" aria-live="polite">
+  <nav class="crumbs">
+    <a href="#/" class="link">Inicio</a>
+    <span class="sep">›</span>
+    <a href="#/neurologia" class="link">Neurología</a>
+    <span class="sep">›</span>
+    <span id="crumbTopic" class="muted">Generalidades</span>
+  </nav>
 
-    <main id="page-topic" class="container hidden" aria-live="polite">
-      <nav class="crumbs">
-        <a href="#/" class="link">Inicio</a>
-        <span class="sep">›</span>
-        <a href="#/neurologia" class="link">Neurología</a>
-        <span class="sep">›</span>
-        <span id="crumbTopic" class="muted">Generalidades</span>
-      </nav>
+  <header class="topic-hero card">
+    <h2 id="topicTitle">Generalidades de Neuro</h2>
+    <p id="topicIntro" class="muted">Fundamentos rápidos: organización del SNC/SNP, tipos de neuronas y glía, y principios de conducción.</p>
+  </header>
 
-      <header class="topic-hero card">
-        <h2 id="topicTitle">Generalidades de Neuro</h2>
-        <p id="topicIntro" class="muted">Fundamentos rápidos: organización del SNC/SNP, tipos de neuronas y glía, y principios de conducción.</p>
-      </header>
-
-      <section id="topicBody" class="topic-body">
-        <!-- El contenido se inyecta con JS -->
-      </section>
-    </main>
-
+  <section id="topicBody" class="topic-body">
+    <!-- El contenido se inyecta con JS -->
+  </section>
+</main>
     <!-- FOOTER -->
     <footer class="foot">
       <small>© <span id="yr"></span> RacMed — Plataforma de estudio de medicina. Hecho por y para estudiantes.</small>
     </footer>
   </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
 </html>
