@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RacMed — Plataforma de Estudio</title>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="brand">
+        <span class="logo">⚕️</span>
+        <strong>RacMed</strong>
+      </div>
+      <div class="nav-actions">
+        <a href="#" class="link">Inicio</a>
+        <a href="#temas" class="link">Temas</a>
+        <a href="#tips" class="link">Tips</a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+      <div class="hero-inner">
+        <h1>SemLock</h1>
+        <p class="sub">
+          Plataforma de estudio de medicina — apuntes interactivos, flashcards y ejercicios.
+        </p>
+        <div class="actions">
+          <input id="q" type="search" class="search" placeholder="Buscar temas, conceptos o fármacos…" />
+          <button id="btnExplorar" class="btn">Explorar Temas</button>
+        </div>
+        <div class="badges">
+          <span class="badge"></span>
+          <span class="badge"></span>
+          <span class="badge">Hecho por RacMed</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN GRID -->
+<main id="page-home" class="container">
+      <!-- WIDGETS -->
+      <section id="widgets" class="widgets">
+        <article class="card tip" id="tips">
+          <div class="card-header">
+            <h3>🧠 Tips de estudio</h3>
+            <button class="chip" data-action="shuffleTips">Nuevo tip</button>
+          </div>
+          <ul class="list" id="tipsList"></ul>
+        </article>
+
+        <article class="card trend">
+          <div class="card-header">
+            <h3>📈 Tendencias (lo más visto)</h3>
+            <button class="chip" data-action="refreshTrends">Actualizar</button>
+          </div>
+          <ul class="list" id="trendList"></ul>
+        </article>
+
+        <article class="card updates">
+          <div class="card-header">
+            <h3>🛠️ Novedades</h3>
+            <span class="mini">Últimas actualizaciones</span>
+          </div>
+          <ul class="list" id="newsList"></ul>
+        </article>
+      </section>
+
+      <!-- TEMAS -->
+      <section id="temas" class="topics">
+        <div class="section-head">
+          <h2>Temas</h2>
+          <div class="tabs" role="tablist">
+            <button class="tab active" data-filter="all" role="tab">Todos</button>
+            <button class="tab" data-filter="Neurología" role="tab">Neurología</button>
+            <button class="tab" data-filter="Salud Mental" role="tab">Salud Mental</button>
+            <button class="tab" data-filter="Fármaco" role="tab">Fármaco</button>
+          </div>
+        </div>
+
+        <div id="topicGrid" class="grid">
+          <!-- Las tarjetas se generan con JS -->
+        </div>
+      </section>
+    </main>
+<main id="page-topic" class="container hidden" aria-live="polite">
+  <nav class="crumbs">
+    <a href="#/" class="link">Inicio</a>
+    <span class="sep">›</span>
+    <a href="#/neurologia" class="link">Neurología</a>
+    <span class="sep">›</span>
+    <span id="crumbTopic" class="muted">Generalidades</span>
+  </nav>
+
+  <header class="topic-hero card">
+    <h2 id="topicTitle">Generalidades de Neuro</h2>
+    <p id="topicIntro" class="muted">Fundamentos rápidos: organización del SNC/SNP, tipos de neuronas y glía, y principios de conducción.</p>
+  </header>
+
+  <section id="topicBody" class="topic-body">
+    <!-- El contenido se inyecta con JS -->
+  </section>
+</main>
+    <!-- FOOTER -->
+    <footer class="foot">
+      <small>© <span id="yr"></span> RacMed — Plataforma de estudio de medicina. Hecho por y para estudiantes.</small>
+    </footer>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
