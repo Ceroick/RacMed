@@ -111,7 +111,7 @@ function topicCard(t) {
       <span class="emoji" aria-hidden="true">${t.emoji}</span>
       <h4>${t.titulo}</h4>
       <p>${t.resumen}</p>
-      <a class="cta link" href="${t.link}" target="_blank" rel="noopener">Abrir</a>
+      <a class="cta link" href="${t.link}" target="_self">Abrir</a>
     </article>
   `;
 }
