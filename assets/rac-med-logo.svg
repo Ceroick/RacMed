@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="shield" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#10294d" />
+      <stop offset="100%" stop-color="#0a1f3c" />
+    </linearGradient>
+    <linearGradient id="fur" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#78c8e6" />
+      <stop offset="100%" stop-color="#2e5f7e" />
+    </linearGradient>
+    <linearGradient id="mask" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#153a5d" />
+      <stop offset="100%" stop-color="#0d2746" />
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" fill="#081933" />
+  <path d="M128 26 36 80l18 110 74 60 74-60 18-110z" fill="url(#shield)" stroke="#9de6ff" stroke-width="8" stroke-linejoin="round" />
+  <g transform="translate(48 48)">
+    <path d="M80 24c-28 0-52 24-52 64 0 44 32 84 52 84s52-40 52-84c0-40-24-64-52-64z" fill="url(#fur)" stroke="#9de6ff" stroke-width="6" />
+    <path d="M28 86c10-16 34-28 52-28s42 12 52 28c-10 20-32 38-52 38s-42-18-52-38z" fill="url(#mask)" />
+    <ellipse cx="52" cy="92" rx="14" ry="16" fill="#0a1f3c" />
+    <ellipse cx="108" cy="92" rx="14" ry="16" fill="#0a1f3c" />
+    <circle cx="52" cy="92" r="6" fill="#c7f3ff" />
+    <circle cx="108" cy="92" r="6" fill="#c7f3ff" />
+    <path d="M80 118c-10 0-18 8-18 18h36c0-10-8-18-18-18z" fill="#c7f3ff" />
+    <path d="M70 130c4 4 8 6 10 6s6-2 10-6" fill="none" stroke="#0a1f3c" stroke-width="4" stroke-linecap="round" />
+    <path d="M34 74 14 62c4-14 14-26 26-32l12 20c-8 4-14 12-18 24z" fill="#89d9ff" stroke="#9de6ff" stroke-width="4" stroke-linejoin="round" />
+    <path d="M126 74l20-12c-4-14-14-26-26-32l-12 20c8 4 14 12 18 24z" fill="#89d9ff" stroke="#9de6ff" stroke-width="4" stroke-linejoin="round" />
+  </g>
+  <text x="164" y="222" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="36" fill="#b5ecff" transform="rotate(-12 164 222)">MED</text>
+</svg>
