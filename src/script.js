@@ -1,12 +1,12 @@
 // --- Datos base ---
 const TEMAS = [
-   {
-  area: "Neurología",
-  titulo: "Generalidades",
-  resumen: "Introducción a los fundamentos de la medicina y conceptos básicos.",
-  link: "#/neurologia/generalidades",   // <— AQUÍ el hash
-  emoji: "📚"
-},
+  {
+    area: "Neurología",
+    titulo: "Generalidades",
+    resumen: "Introducción a los fundamentos de la medicina y conceptos básicos.",
+    link: "#/neurologia/generalidades", // <— AQUÍ el hash
+    emoji: "📚"
+  },
   {
     area: "Neurología",
     titulo: "Memoria y Conciencia",
@@ -41,6 +41,41 @@ const TEMAS = [
     resumen: "Coberturas básicas, familias y reglas mnemotécnicas.",
     link: "#",
     emoji: "🧫"
+  },
+  {
+    area: "Fármaco",
+    titulo: "Antimicrobianos I",
+    resumen: "Principios generales, clasificación y mecanismos de acción esenciales.",
+    link: "#",
+    emoji: "🦠"
+  },
+  {
+    area: "Fármaco",
+    titulo: "Antimicrobianos II",
+    resumen: "Cobertura avanzada, farmacocinética y consideraciones clínicas.",
+    link: "#",
+    emoji: "🧬"
+  },
+  {
+    area: "Fármaco",
+    titulo: "Generalidades de Farmacología",
+    resumen: "Farmacodinamia, farmacocinética y pasos clave en el desarrollo de fármacos.",
+    link: "#",
+    emoji: "📘"
+  },
+  {
+    area: "Fármaco",
+    titulo: "Hematológico",
+    resumen: "Fármacos para coagulopatías, anemia y soporte transfusional.",
+    link: "#",
+    emoji: "🩸"
+  },
+  {
+    area: "Fármaco",
+    titulo: "Seminarios",
+    resumen: "Casos clínicos integradores y discusión de guías farmacológicas.",
+    link: "#",
+    emoji: "🎓"
   }
 ];
 
